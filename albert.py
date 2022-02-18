@@ -3,10 +3,11 @@ class Student:
         self.name = ""
         self.email = ""
         self.courses = []
-        return;
+        return
 
     def numcourses(self):
         return len(self.courses)
+
 
 ### MAIN BODY ###
 

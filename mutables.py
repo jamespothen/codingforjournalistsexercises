@@ -6,12 +6,13 @@ def changestuff(number, phrase, collection):
     print(number)
     print(phrase)
     print(collection)
-    return ;
+    return
+
 
 ### MAIN BODY ###
 
 num = 20
-phr= "I'm changing"
+phr = "I'm changing"
 coll = ["Alpha", "Beta", "Gamma"]
 print("Our starting variables are")
 print(num)

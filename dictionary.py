@@ -1,4 +1,4 @@
-animalsdict = {"dog" : "mammal", "cat" : "mammal", "turtle" : "reptile"}
+animalsdict = {"dog": "mammal", "cat": "mammal", "turtle": "reptile"}
 
 print(animalsdict)
 

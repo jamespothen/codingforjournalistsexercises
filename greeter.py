@@ -1,4 +1,4 @@
-#answer = input("How are you today? ")
+# answer = input("How are you today? ")
 name = input("What is your name? ")
 print("Hello, " + name + ".")
 age = 21

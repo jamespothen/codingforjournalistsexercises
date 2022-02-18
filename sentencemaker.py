@@ -8,7 +8,7 @@ while keepgoing:
     newword = input("Please enter a word. Enter '.' to stop: ")
     wordcount += 1
     sentence += f" {newword}"
-    if (newword == "."):
+    if newword == ".":
         keepgoing = False
 
 print(sentence)

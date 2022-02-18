@@ -1,7 +1,7 @@
-print ("Hello World!")
-print ("I'm here.")
+print("Hello World!")
+print("I'm here.")
 # THIS IS A BRIEF INTRODUCTION
-print ("I'm still here.")
+print("I'm still here.")
 
 a = "Yes! I am alive!"
 b = "Oops. Dead now."

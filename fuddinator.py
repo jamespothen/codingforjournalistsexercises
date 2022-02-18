@@ -7,10 +7,10 @@ count = 0
 newsentence = ""
 
 for letter in sentence:
-    if (letter == "r"):
+    if letter == "r":
         count += 1
         newsentence += "w"
-    elif(letter == "R"):
+    elif letter == "R":
         count += 1
         newsentence += "W"
     else:

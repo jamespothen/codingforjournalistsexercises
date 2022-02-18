@@ -1,5 +1,5 @@
 keepgoing = True
-phonenumberdict = {"John" : "555-5555", "Susan" : "222-2222"}
+phonenumberdict = {"John": "555-5555", "Susan": "222-2222"}
 
 # Add mobile, address, etc.
 # Create object with attributes and methods

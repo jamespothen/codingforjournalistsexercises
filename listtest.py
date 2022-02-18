@@ -1,10 +1,10 @@
 mylist = ["Monday", "Tuesday", "Wednesday", "Thursday"]
 print(len(mylist))
 print(mylist)
-print(mylist[1]) #pulling out an element of a list is a string
-print(mylist[1:2]) #['Tuesday']
-print(mylist[2:]) #slicing a list is still a list
-print(mylist[:2]) #['Monday', 'Tuesday']
+print(mylist[1])  # pulling out an element of a list is a string
+print(mylist[1:2])  # ['Tuesday']
+print(mylist[2:])  # slicing a list is still a list
+print(mylist[:2])  # ['Monday', 'Tuesday']
 
 if "Monday" in mylist:
     print("We have a Monday.")

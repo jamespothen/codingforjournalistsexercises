@@ -4,13 +4,13 @@ import http.cookiejar
 
 cj = http.cookiejar.MozillaCookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-opener.addheaders = [('User-agent','Mozilla/5.0')]
+opener.addheaders = [("User-agent", "Mozilla/5.0")]
 
 webURL = "https://archive.org/stream/mobydickorwhale01melvuoft/mobydickorwhale01melvuoft_djvu.txt"
 outfilename = "ishmael.txt"
 
-infile = opener.open(webURL, timeout = 15)
-outfile = open(outfilename,"w",encoding="utf-8")
+infile = opener.open(webURL, timeout=15)
+outfile = open(outfilename, "w", encoding="utf-8")
 
 ishmaelcounter = 0
 

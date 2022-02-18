@@ -1,5 +1,5 @@
 keepgoing = True
-phonenumberdict = {"John" : "555-5555", "Susan" : "222-2222"}
+phonenumberdict = {"John": "555-5555", "Susan": "222-2222"}
 
 while keepgoing:
     name = input("Please enter a name to get the corresponding number: ")

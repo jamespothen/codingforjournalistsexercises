@@ -19,8 +19,8 @@ for line in infile:
     borough = datalist[boroughindex].strip()
     scorestring = datalist[scoreindex].strip()
     score = 0 if (scorestring == "") else int(scorestring)
-    if(borough == "Manhattan"):
-        if(score >= 30):
+    if borough == "Manhattan":
+        if score >= 30:
             outfile.write(line)
 
 infile.close()

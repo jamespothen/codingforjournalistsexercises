@@ -1,12 +1,11 @@
 import json
 
-studentdict = {"nid":"N123456789",
-               "name":"Andy Hamilton",
-               "address":{"street":"123 Fake Street",
-                          "state":"New York",
-                          "zip":10003},
-               "classes":["Programming", "Basket Weaving", "Fundraising"]
-               }
+studentdict = {
+    "nid": "N123456789",
+    "name": "Andy Hamilton",
+    "address": {"street": "123 Fake Street", "state": "New York", "zip": 10003},
+    "classes": ["Programming", "Basket Weaving", "Fundraising"],
+}
 
 classeslist = studentdict["classes"]
 

@@ -9,6 +9,7 @@ def getnumber(promptstring):
             print("That didn't work, please try again.")
     return num
 
+
 ### MAIN BODY ###
 
 num1 = getnumber("A number please: ")

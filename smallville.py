@@ -1,13 +1,13 @@
 import urllib.request
-import http.cookiejar # deal with cookies
+import http.cookiejar  # deal with cookies
 
 cj = http.cookiejar.MozillaCookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-opener.addheaders = [('User-agent','Mozilla/5.0')]
+opener.addheaders = [("User-agent", "Mozilla/5.0")]
 
 webURL = "https://en.wikipedia.org/wiki/List_of_Smallville_episodes"
 
-infile = opener.open(webURL, timeout = 15)
+infile = opener.open(webURL, timeout=15)
 
 newpage = infile.read().decode("utf-8")
 
@@ -25,7 +25,7 @@ while keepgoing:
     else:
         target3 = "<"
         target3index = newpage.find(target3, target2index)
-        print(newpage[target2index+len(target2):target3index].strip())
+        print(newpage[target2index + len(target2) : target3index].strip())
         currentplace = target3index
 
 # while keepgoing:

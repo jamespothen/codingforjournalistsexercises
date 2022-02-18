@@ -1,13 +1,13 @@
 import urllib.request
-import http.cookiejar # deal with cookies
+import http.cookiejar  # deal with cookies
 
 cj = http.cookiejar.MozillaCookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-opener.addheaders = [('User-agent','Mozilla/5.0')]
+opener.addheaders = [("User-agent", "Mozilla/5.0")]
 
 webURL = "https://en.wikipedia.org/w/index.php?title=Kamala_Harris&action=history"
 
-infile = opener.open(webURL, timeout = 15)
+infile = opener.open(webURL, timeout=15)
 
 newpage = infile.read().decode("utf-8")
 
@@ -29,7 +29,7 @@ while keepgoing:
         target4 = "<"
         target4index = newpage.find(target4, target3index)
         currentplace = target4index
-        
-        print(newpage[target3index+len(target3):target4index])
+
+        print(newpage[target3index + len(target3) : target4index])
 
 infile.close()
